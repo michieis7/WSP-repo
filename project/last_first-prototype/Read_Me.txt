@@ -1,1 +1,0 @@
-http://michieis7.github.io/WSP-repo/project/

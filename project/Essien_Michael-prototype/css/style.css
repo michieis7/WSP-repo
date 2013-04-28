@@ -1,0 +1,68 @@
+/*normalize reset css-------------*/
+@import "normalize.css";
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+p{
+	font: 115.5% 'Basic', sans-serif;  /*14px/16px*/
+	margin: 0;
+	padding: 1% 5% 0%; /*4px;*/
+}
+
+body {
+	color: #15145F;
+	padding: 0%;
+	box-shadow:0px 0px 20px #606060;
+}
+
+#wrapper{
+	width: 75%; /*960px; deviated*/
+	margin: 2% auto;
+	background: #fff;
+	box-shadow:0px 0px 20px #606060;
+}
+
+
+h1{
+	font: 193.75% 'Denk One', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0% auto;
+	padding: 2%;
+	text-indent: 25px;
+	text-shadow: 2px 2px 2px #111;
+}
+
+h2{
+	font: 180% 'Basic', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 3% 5% 0%; /*4px;*/
+}
+
+h3{
+	font: 140% 'Basic', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 2% 5% 0%; /*4px;*/
+}
+
+h4{
+	font: 100% 'Basic', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 2% 5% 0%; /*4px;*/
+}
+
+ul{
+	font: 150% 'Basic', sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 3% 5% 3%; /*4px;*/
+}
+
+footer{
+margin: 0;
+padding: 2%;
+}

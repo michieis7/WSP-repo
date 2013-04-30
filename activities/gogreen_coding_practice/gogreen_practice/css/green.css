@@ -1,0 +1,76 @@
+  /*  There is no need for positioning in this activity – please use floats and appropriate clearing methods where necessary.
+    HTML background color: #693
+    Body font:
+        Verdana, Arial, sans-serif,
+        10px font size,
+        18px line-height
+    The “Wrapper”:
+        960px width
+        centered within the browser
+    Anchor text green: #693
+    Anchor-hover: #000, with underline
+    Headings:
+        h1: 30px, Georgia
+        h2: 24px, Georgia
+        h3: 20px, Georgia
+        */
+        
+body{
+	font: 10px Verdana, Arial, sans-serif;
+	line-height: 18px;
+}
+
+#wrapper{
+	width: 960px;
+	margin: auto;
+}
+
+a:link{
+	color: #693;
+}
+	
+	
+a:hover{
+	color: #000;
+}
+
+h1{
+	font: 30px Georgia;
+}
+
+
+h2{
+	font: 24px Georgia;
+}
+
+
+h3{
+	font: 20px Georgia;
+}
+
+
+
+/*Floats
+--------------------*/
+
+h1{
+	float: left;
+}
+
+.household_product_Image{
+	float: left;
+}
+
+.vertical_divider{
+	float: left;
+}
+
+/*
+#events{
+	float: none;
+	}
+
+.environmental_events_h3{
+	float: none;
+	}
+*/

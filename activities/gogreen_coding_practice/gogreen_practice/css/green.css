@@ -68,7 +68,7 @@ h3{
 
 .navListItem{
 	width: 16.666666666667%; /*120px/720px;*/
-
+	
 	float: left;
 }
 
@@ -91,23 +91,25 @@ h3{
 /*Floats, etc.
 --------------------*/
 
-h1{
-	float: left;
-}
+/*h1{
+	
+}*/
 
 .household_product_Image{
+	clear: right;
 	float: left;
 }
 
 .household_h2{
-
+	width: 320px;
+	float: left;
 }
 
 
 .horizontal_divider{
 	float: left;
 }
-
+/*
 .affordable_green_car_Image{
 
 }
@@ -143,3 +145,5 @@ h1{
 .footer_class{
 
 }
+
+*/

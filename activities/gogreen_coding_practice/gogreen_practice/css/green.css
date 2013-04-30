@@ -15,6 +15,11 @@
         h3: 20px, Georgia
         */
         
+        
+h1, h2, h3, h4, h5, h6{
+						margin: 0;
+}
+        
 body{
 	font: 10px Verdana, Arial, sans-serif;
 	line-height: 18px;
@@ -49,8 +54,41 @@ h3{
 }
 
 
+/*Navigation
+----------------------*/
 
-/*Floats
+#navList{
+   width: 67.69%; /*720px;*/
+   margin: 0 auto;
+   list-style-type: none;
+   padding: 0;
+   float: right;
+   overflow: hidden;
+}
+
+.navListItem{
+	width: 16.666666666667%; /*120px/720px;*/
+
+	float: left;
+}
+
+.navLink{
+	text-decoration: none;
+/*	background: #8CD1F4;*/
+	display: block;
+	height: 35px;
+	line-height: 30px;
+	text-align: center;
+	color: #15145F;
+}
+
+.navLink:hover{
+	color: #fff;
+	background: #15145F;
+}
+
+
+/*Floats, etc.
 --------------------*/
 
 h1{
@@ -61,16 +99,47 @@ h1{
 	float: left;
 }
 
-.vertical_divider{
+.household_h2{
+
+}
+
+
+.horizontal_divider{
 	float: left;
 }
 
-/*
-#events{
-	float: none;
-	}
+.affordable_green_car_Image{
 
-.environmental_events_h3{
-	float: none;
-	}
-*/
+}
+
+.going_green_fl_Image{
+
+}
+
+.affordable_green_car{
+
+}
+
+.going_green_fl{
+
+}
+
+.affordable_ul{
+
+}
+
+.affordable_ul{
+
+}
+
+.vertical_divider{
+
+}
+
+.events{
+
+}
+
+.footer_class{
+
+}

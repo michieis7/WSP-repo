@@ -58,7 +58,7 @@ h3{
 ----------------------*/
 
 #navList{
-   width: 67.69%; /*720px;*/
+   width: 57%;
    margin: 0 auto;
    list-style-type: none;
    padding: 0;
@@ -67,15 +67,13 @@ h3{
 }
 
 .navListItem{
-	width: 16.666666666667%; /*120px/720px;*/
+	width: 16.666666666667%;
 	
 	float: left;
 }
 
 .navLink{
 	text-decoration: none;
-/*	background: #8CD1F4;*/
-	display: block;
 	height: 35px;
 	line-height: 30px;
 	text-align: center;
@@ -83,21 +81,17 @@ h3{
 }
 
 .navLink:hover{
-	color: #fff;
-	background: #15145F;
+	color: #000;
 }
 
 
 /*Floats, etc.
 --------------------*/
 
-/*h1{
-	
-}*/
-
 .household_product_Image{
 	clear: right;
 	float: left;
+	padding: 0px 25px 0px 0px;
 }
 
 .household_h2{
@@ -106,44 +100,77 @@ h3{
 }
 
 
-.horizontal_divider{
-	float: left;
-}
-/*
-.affordable_green_car_Image{
+/*.horizontal_divider{
 
 }
+*/
+
+
+.affordable_green_car_Image{
+	float: left;
+	padding: 0px 15px 10px 0px;
+
+}
+
 
 .going_green_fl_Image{
-
+	/*float: left;
+	/*clear:right;*/
 }
 
+
 .affordable_green_car{
+	margin: 0 0 0 0;
+	padding: 0 15px 0 0;
+	width: 275px;
+	float: left;
 
 }
 
 .going_green_fl{
-
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	width: 275px;
+	float: left;
 }
+
 
 .affordable_ul{
+	width: 275px;
+	float: left;
+}
+
+.going_green_ul{
+	width: 275px;
+	float: left;
+}
+
+
+/*.events{
+	
 
 }
 
-.affordable_ul{
-
-}
 
 .vertical_divider{
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	clear; left: 
+}
+*/
 
+aside{
+	width: 275px;
+	margin: 0 0 0 0;
+	float: right;
 }
 
-.events{
-
-}
-
+/*
 .footer_class{
 
 }
 
 */
+.clearFix{
+	clear: both;
+}

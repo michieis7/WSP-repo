@@ -163,7 +163,8 @@ aside{
 	width: 275px;
 	margin: 0 0 0 0;
 	float: right;
-	
+	border-left: 2px;
+	border-color: black;
 }
 
 /*

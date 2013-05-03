@@ -101,9 +101,10 @@ Solutions
 }
 
 .res_sol{
-/*padding: 5px 0px 0px 0px;
+/*padding: 5px 0px 0px 0px;*/
+	float: right;
 
-}*/
+}
 
 
 /*Navigation
@@ -166,6 +167,7 @@ footer{
 	margin: 0;
 	padding: 2%;
 	text-align: center;
+	clear: both;
 }
 
 /*Form Styles

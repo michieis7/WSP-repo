@@ -100,10 +100,12 @@ Solutions
 	padding: 0px 25px 0px 0px;
 }
 
-/*.res_sol{
-padding: 5px 0px 0px 0px;
+.res_sol{
+/*padding: 5px 0px 0px 0px;*/
+	clear: left;
+
 }
-*/
+
 
 /*Navigation
 ----------------------*/

@@ -70,10 +70,14 @@ ul{
 	color: 00b8f5;
 }*/
 
-
 footer{
+	margin:0;
+	width: 90%;
+}
+	
+.footer{
 	font: 70% Arial, sans-serif;
-	padding: 0 auto;
+	padding: 0px 0px 5px 0px;
 }
 
 /*Logo
@@ -112,17 +116,17 @@ Solutions
 .util_nav{
 	float: right;
 	font: 75% Arial, sans-serif;
-	padding: 1% 5% 2% 0%;
+	padding: 1% 7.5% 2% 0%;
 }
 
 #navList{
    width: 60%;
    margin: 0 auto;
    list-style-type: none;
-   padding: 3% 3.5% 2% 0%;
+   padding: 3% 6.5% 2% 0%;
    clear: right;
    float: right;
-   /*overflow: hidden;*/
+  
 }
 
 .navListItem{

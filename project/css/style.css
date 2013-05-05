@@ -8,7 +8,7 @@ h1, h2, h3, h4, h5, h6{
 p{
 	font: 115.5% Arial, sans-serif;  /*14px/16px*/
 	margin: 0;
-	padding: 1% 4% 0%; /*4px;*/
+	padding: 1% 2% 0%; /*4px;*/
 }
 
 body {
@@ -31,7 +31,7 @@ h1{
 	font: 172% Arial, sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0% auto;
-	padding: 2% 0.5% 2% 0%;
+	padding: 2% 0% 2% 0%;
 	text-indent: 5px;
 	text-shadow: 2px 2px 2px #111;
 	clear: left;
@@ -42,21 +42,21 @@ h2{
 	font: 180% Arial, sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0 auto;
-	padding: 3% 5% 0%; /*4px;*/
+	padding: 3% 0% 0%; /*4px;*/
 }
 
 h3{
 	font: 140% Arial, sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0 auto;
-	padding: 2% 5% 0%; /*4px;*/
+	padding: 2% 0% 0%; /*4px;*/
 }
 
 h4{
 	font: 100% Arial, sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0 auto;
-	padding: 2% 5% 0%; /*4px;*/
+	padding: 2% 3% 0%; /*4px;*/
 }
 
 ul{
@@ -157,15 +157,17 @@ Solutions
 	margin: 0.520833333333% auto;
 	overflow: hidden;
 	padding: 0.625%;
+	
 }
 
 .galleryListItem{
 	float: left;
 	margin-left: 2.083333333333%;
 	margin-top: 2.083333333333%;
+	border: 10px solid #8CD1F4; 
 }
 
-/*Services List Headings
+/*VCR Services List Headings
 -------------------------------------*/
 
 .services_headings{
@@ -173,6 +175,12 @@ font: 150% Arial, sans-serif; /*31px/16px*/
 	text-align: left;
 	margin: 0 auto;
 	padding: 2% 3% 0%; /*4px;*/
+}
+
+
+.working_hrs{
+	margin: 0 auto;
+	padding: 2% 30% 0;
 }
 
 /*Services "ul"s*/
@@ -279,55 +287,55 @@ input.number_field2 {
 
 
 
-
-
 /* Media Queries */
 /*-------------------------------------------*/
 
 /* Smartphones (portrait and landscape) -----------*/
-@media only screen 
+/*@media only screen 
 and (min-device-width : 320px) 
-and (max-device-width : 480px)
-
-/*@media screen and (max-width: 479px)*/ 
+and (max-device-width : 480px)*/ 
+@media screen and (max-width: 479px)
 
 {
 
-body{
-/*	background: #D4D4D6;*/
-}
-
-h1{
-background: #000;
-color: #FFF;
-font: normal 3.625em/0.9 Arial, sans-serif; /* 58px / 16px */
-text-transform: uppercase;
-}
-
+#wrapper{
+	width: 480px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
+	
 }
 
 
-/* iPads (portrait and landscape) ----------- */
-@media only screen 
+
+
+
+
+/* iPads (portrait and landscape) ----------- 
+---------------------------------------------*/
+/*@media only screen 
 and (min-device-width : 768px) 
-and (max-device-width : 1024px)
-
-/*@media only screen and (min-width: 480px) and (max-width: 767px)*/ 
+and (max-device-width : 1024px)*/
+@media only screen and (min-width: 480px) and (max-width: 767px) 
 
 {
 
-
-
-h1{
-font: normal 1.5em Arial, sans-serif; /* 24px / 16px */
+#wrapper{
+	width: 760px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
 }
 
-}
-
-/* Desktops and laptops ----------- */
+/* Desktops and laptops ----------- 
+--------------------------------------*/
 @media only screen 
-and (min-width : 1224px) {
+and (min-width : 960px) 
 
+{
+
+#wrapper{
+	width: 960px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
 
 
 }

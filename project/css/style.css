@@ -200,9 +200,15 @@ footer{
 
 /*Form Styles
 -----------------------------------*/
-.form_ad{
-float: right;
+/*.form_frame{
+	float: left;
 }
+
+.form_ad{
+float: left;
+}
+*/
+
 .clearLeft {
     background: none repeat scroll 0 0 transparent;
     clear: left;
@@ -212,7 +218,7 @@ float: right;
 }
 
 .form_placeholder{
-padding: 1% 5% 0%; /*4px;*/
+padding: 1% 0% 0%; /*4px;*/
 }
 
 form {

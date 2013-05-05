@@ -290,16 +290,14 @@ input.number_field2 {
 /* Media Queries */
 /*-------------------------------------------*/
 
-/* Smartphones (portrait and landscape) -----------*/
-/*@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 480px)*/ 
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
+======================================================================*/
 @media screen and (max-width: 479px)
 
 {
 
 #wrapper{
-	width: 480px; /*65%;  deviated*/
+	width: 400px; /*65%;  deviated*/
 	margin: 0% auto;
 	background: #fff url("../images/p4.png") repeat fixed;
 	
@@ -308,27 +306,22 @@ and (max-device-width : 480px)*/
 
 
 
-
-
-/* iPads (portrait and landscape) ----------- 
----------------------------------------------*/
-/*@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px)*/
-@media only screen and (min-width: 480px) and (max-width: 767px) 
+/* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
+======================================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
 
 {
 
 #wrapper{
-	width: 760px; /*65%;  deviated*/
+	width: 460px; /*65%;  deviated*/
 	margin: 0% auto;
 	background: #fff url("../images/p4.png") repeat fixed;
 }
 
-/* Desktops and laptops ----------- 
---------------------------------------*/
-@media only screen 
-and (min-width : 960px) 
+
+/* Tablet Portrait Size to standard 960 (devices and browsers) 
+======================================================================*/
+@media screen and (min-width: 768px) and (max-width: 959px)
 
 {
 

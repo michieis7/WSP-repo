@@ -1,0 +1,343 @@
+/*normalize reset css-------------*/
+@import "normalize.css";
+
+h1, h2, h3, h4, h5, h6{
+	margin: 0;
+}
+
+p{
+	font: 115.5% Arial, sans-serif;  /*14px/16px*/
+	margin: 0;
+	padding: 1% 2% 0%; /*4px;*/
+}
+
+body {
+	background: #fff url("../images/p4.png") repeat fixed;
+	color: #15145F;
+	padding: 0%;
+/*	box-shadow:0px 0px 20px #606060;*/
+
+}
+
+#wrapper{
+	width: 960px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
+/*	box-shadow:0px 0px 20px #606060;*/
+}
+
+
+h1{
+	font: 172% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0% auto;
+	padding: 2% 0% 2% 0%;
+	text-indent: 5px;
+	text-shadow: 2px 2px 2px #111;
+	clear: left;
+	
+}
+
+h2{
+	font: 180% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 3% 0% 0%; /*4px;*/
+}
+
+h3{
+	font: 140% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 2% 0% 0%; /*4px;*/
+}
+
+h4{
+	font: 100% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 2% 3% 0%; /*4px;*/
+}
+
+ul{
+	font: 150% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 3% 5% 3%; /*4px;*/
+}
+
+/*strong{
+	color: 00b8f5;
+}*/
+
+
+.footer{
+	font: 70% Arial, sans-serif;
+	padding: 0px 0px 20px 0px;
+}
+
+.text_highlight{
+	color: #00b8f5;
+}
+
+/*Logo
+------------------------*/
+.vcr_logo_Image{
+	padding: 0 0 0 1%;
+	float: left;
+}
+
+/*
+Slide Show
+-------------------*/
+.slide{
+	padding: 0px 0px 20px 0px;
+	
+}
+
+
+/*
+Solutions
+-------------------*/
+.bus_sol{
+	float: left;
+	padding: 0px 25px 0px 0px;
+}
+
+.res_sol{
+/*padding: 5px 0px 0px 0px;*/
+	float: left;
+
+}
+
+
+/*Navigation
+----------------------*/
+.util_nav{
+	float: right;
+	font: 75% Arial, sans-serif;
+	padding: 1% 7% 2% 0%;
+}
+
+#navList{
+   width: 60%;
+   margin: 0 auto;
+   list-style-type: none;
+   padding: 3% 6.5% 2% 0%;
+   clear: right;
+   float: right;
+   /*overflow: hidden;*/
+}
+
+.navListItem{
+	width: 16.666666666667%;
+	font: 70% Arial, sans-serif;
+	float: left;
+}
+
+.navLink{
+	text-decoration: none;
+	height: 35px;
+	line-height: 30px;
+	text-align: center;
+	color: #15145F;
+}
+
+.navLink:hover{
+	color: #00b8f5;
+}
+
+
+/*Gallery
+------------------*/
+
+#svc_dsplyList{
+	list-style-type: none;
+	width: 90%;
+	margin: 0.520833333333% auto;
+	overflow: hidden;
+	padding: 0.625%;
+	
+}
+
+.galleryListItem{
+	float: left;
+	margin-left: 2.083333333333%;
+	margin-top: 2.083333333333%;
+	border: 10px solid #8CD1F4; 
+}
+
+/*VCR Services List Headings
+-------------------------------------*/
+
+.services_headings{
+font: 150% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 2% 3% 0%; /*4px;*/
+}
+
+
+.working_hrs{
+	margin: 0 auto;
+	padding: 2% 30% 0;
+}
+
+/*Services "ul"s*/
+.services_uls{
+	font: 150% Arial, sans-serif; /*31px/16px*/
+	text-align: left;
+	margin: 0 auto;
+	padding: 1% 5% 1%; /*4px;*/
+}
+
+footer{
+	margin: 0;
+	padding: 2%;
+	text-align: center;
+	clear: both;
+}
+
+/*Form Styles
+-----------------------------------*/
+/*.form_frame{
+	float: left;
+}
+
+.form_ad{
+float: left;
+}
+*/
+
+.clearLeft {
+    background: none repeat scroll 0 0 transparent;
+    clear: left;
+    height: 0;
+    line-height: 0;
+    width: 0;
+}
+
+.form_placeholder{
+padding: 1% 0% 0%; /*4px;*/
+}
+
+form {
+    margin: 0;
+    padding: 0;
+}
+fieldset {
+    border: 0 none;
+    margin: 0;
+    padding: 0;
+}
+input, select, textarea {
+    color: #4B4C4D;
+    font-family: Verdana,Arial,sans-serif;
+}
+/*.error {
+    color: #D40000;
+    font-weight: bold;
+    padding-bottom: 6px;
+}*/
+.form_field {
+    margin-bottom: 12px;
+}
+.form_field label {
+    display: block;
+    padding: 2px 0;
+    width: 60%;
+}
+.form_field input {
+    padding: 4px 6px;
+    width: 180px;
+}
+.form_field select {
+    padding: 4px 2px 4px 6px;
+}
+
+#Reason{
+    width: 43%;
+    padding: 0px 0px;
+}
+
+.form_field textarea {
+    height: 60px;
+    padding: 4px 6px;
+    width: 43%; /* 396px */
+}
+.state_field select, .country_field select {
+    width: 196px;
+}
+.float_field {
+    float: left;
+    margin-right: 20px;
+}
+.number_field {
+    float: left;
+    margin-right: 20px;
+}
+.number_field input {
+    width: 76px;
+}
+input.number_field2 {
+    width: 180px;
+}
+.zip_field {
+    float: left;
+    margin-right: 20px;
+}
+.zip_field input {
+    width: 76px;
+}
+
+
+
+
+/* Media Queries */
+/*-------------------------------------------*/
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) 
+======================================================================*/
+@media screen and (max-width: 479px)
+
+{
+
+#wrapper{
+	width: 400px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
+	
+}
+
+}
+
+
+/* Mobile Landscape Size to Tablet Portrait Size (devices and browsers) 
+======================================================================*/
+@media only screen and (min-width: 480px) and (max-width: 767px)
+
+{
+
+#wrapper{
+	width: 460px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
+}
+
+}
+
+/* Tablet Portrait Size to standard 960 (devices and browsers) 
+======================================================================*/
+@media screen and (min-width: 768px) and (max-width: 959px)
+
+{
+
+#wrapper{
+	width: 960px; /*65%;  deviated*/
+	margin: 0% auto;
+	background: #fff url("../images/p4.png") repeat fixed;
+
+
+}
+}
+
